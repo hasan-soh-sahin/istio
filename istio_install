@@ -5,3 +5,17 @@ This will install the Istio 1.11.4 default profile with ["Istio core" "Istiod" "
 ✔ Ingress gateways installed                                                                                                                                                                              
 ✔ Installation complete                                                                                                                                                                                   
 Thank you for installing Istio 1.11.  Please take a few minutes to tell us about your install/upgrade experience!  https://forms.gle/kWULBRjUv7hHci7T6
+
+user@host:~/dev/istio/istio-1.11.4/bin$ kubectl get ns
+NAME              STATUS   AGE
+default           Active   2d19h
+istio-system      Active   65m
+kube-node-lease   Active   2d19h
+kube-public       Active   2d19h
+kube-system       Active   2d19h
+spark-operator    Active   2d13h
+
+hasan@hasan:~/dev/istio/istio-1.11.4/bin$ kubectl get po -n istio-system
+NAME                                   READY   STATUS    RESTARTS   AGE
+istio-ingressgateway-8dbb57f65-jmvcp   1/1     Running   0          67m
+istiod-7859559dd-nc28v                 1/1     Running   0          67m
