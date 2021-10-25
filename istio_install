@@ -1,0 +1,7 @@
+user@host:~/dev/istio/istio-1.11.4/bin$ istioctl install
+This will install the Istio 1.11.4 default profile with ["Istio core" "Istiod" "Ingress gateways"] components into the cluster. Proceed? (y/N) y
+✔ Istio core installed                                                                                                                                                                                    
+✔ Istiod installed                                                                                                                                                                                        
+✔ Ingress gateways installed                                                                                                                                                                              
+✔ Installation complete                                                                                                                                                                                   
+Thank you for installing Istio 1.11.  Please take a few minutes to tell us about your install/upgrade experience!  https://forms.gle/kWULBRjUv7hHci7T6
